@@ -1,0 +1,91 @@
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #b6b3ac;
+  border-radius: 0;
+  border: 0;
+}
+.container>.navbar-header {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.container .navbar-header .navbar-brand{
+  margin: 20px 5px;
+  padding: 15px 5px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: #000;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav{
+  padding: 0px;
+  }
+
+#nav-list {  
+  border: 1px solid #000;
+  margin: 0px;
+  background-color: #fff;
+}
+
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+/*Added*/
+#nav-list li {  
+  border-bottom: 1px solid #951c49;
+}
+/*Added*/
+#nav-list li:last-child {  
+  border-bottom: 0px;
+}
+/*can be added
+#nav-list a:hover {
+  background: #E7E7E7;
+}*/
+
+.navbar-header button.navbar-toggle{
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle:focus,
+.navbar-header button.navbar-toggle:hover{
+  background-color: transparent;
+  border: 2px solid #ccc;
+}
+
+.navbar-header button.navbar-toggle .icon-bar{
+  width:25px;
+  height:4px;   /*height=border so backgound will not be seen*/
+  border: inherit;
+}
+
+#content{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  
+}
+
